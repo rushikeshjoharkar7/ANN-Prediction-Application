@@ -65,4 +65,4 @@ def show_predict_page():
         
         
         
-        st.caption('### Designed by *Manisha Mogare*')
+        #st.caption('### Designed by *Manisha Mogare*')
