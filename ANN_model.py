@@ -110,7 +110,7 @@ Test_Data=PredictorScalerFit.inverse_transform(X)
 
 
 
-def show_predict_page():
+def show_prediction_page():
     
     
     
