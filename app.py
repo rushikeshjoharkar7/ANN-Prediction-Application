@@ -11,7 +11,7 @@ st.sidebar.title('Explore More')
 page = st.sidebar.selectbox("Navigation",("ANN Prediction","Linear Regression Prediction","Properties","Processed Data","Graphical Representation","Calculator"))
 
 if page == "ANN Prediction":
-    show_predict_page
+    show_prediction_page()
 elif page == "Linear Regression Prediction":
     show_predict_page()
 elif page == "Properties" :
