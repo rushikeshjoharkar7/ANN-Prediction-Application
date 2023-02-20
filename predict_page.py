@@ -20,7 +20,7 @@ def show_predict_page():
     
     
     
-    st.title("Yarn Properties Prediction from Fibre Properties and Yarn Count")
+    st.title("Yarn Properties Prediction using Linear Regression Model")
 
     st.write("""### We need some information for Prediction""")
 
