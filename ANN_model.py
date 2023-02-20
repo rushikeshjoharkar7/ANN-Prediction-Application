@@ -114,7 +114,7 @@ def show_prediction_page():
     
     
     
-    st.title("Yarn Properties Prediction from Fibre Properties and Yarn Count")
+    st.title("Yarn Properties Prediction using Artificial Neural Network Model")
 
     st.write("""### We need some information for Prediction""")
 
