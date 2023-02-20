@@ -8,7 +8,7 @@ from ANN_model import show_prediction_page
 
 st.sidebar.title('Explore More')
 
-page = st.sidebar.selectbox("Navigation",("ANN Prediction","Linear Regression Prediction","Properties","Processed Data","Graphical Representation","Calculator"))
+page = st.sidebar.radio("Navigation",("ANN Prediction","Linear Regression Prediction","Properties","Processed Data","Graphical Representation","Calculator"))
 
 if page == "ANN Prediction":
     show_prediction_page()
